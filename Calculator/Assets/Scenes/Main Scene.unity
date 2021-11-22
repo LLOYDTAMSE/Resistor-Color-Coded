@@ -1648,7 +1648,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 4 Bands
+  m_text: 5 Bands
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -12831,7 +12831,7 @@ MonoBehaviour:
   m_Placeholder: {fileID: 0}
   m_ItemText: {fileID: 1931004994}
   m_ItemImage: {fileID: 0}
-  m_Value: 0
+  m_Value: 1
   m_Options:
     m_Options:
     - m_Text: 4 Bands
@@ -12840,7 +12840,19 @@ MonoBehaviour:
       m_Image: {fileID: 0}
   m_OnValueChanged:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 2052080902}
+        m_TargetAssemblyTypeName: Calculator, Assembly-CSharp
+        m_MethodName: OnStateChange
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   m_AlphaFadeSpeed: 0.15
 --- !u!114 &1203092641
 MonoBehaviour:
@@ -19992,6 +20004,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 29fcbbfd755010044b604ad6239fcbe1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  resistorState: 0
+  dropdown: {fileID: 1203092640}
 --- !u!1 &2075243136
 GameObject:
   m_ObjectHideFlags: 0
