@@ -25,6 +25,7 @@ public class Calculator : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+
     }
 
     // Update is called once per frame
@@ -37,6 +38,10 @@ public class Calculator : MonoBehaviour
             {
                 child.GetComponent<Button>().interactable = false;
             }
+
+            //TODO: Disable thirdband gameobject by using SetActive(false)
+
+
         } else
         {
             //If five band, enable all 3rd bands
@@ -44,6 +49,9 @@ public class Calculator : MonoBehaviour
             {
                 child.GetComponent<Button>().interactable = true;
             }
+            
+            //TODO: opposite
+
         }
     }
 
