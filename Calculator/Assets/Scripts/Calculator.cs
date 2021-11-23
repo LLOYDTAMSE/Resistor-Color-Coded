@@ -42,7 +42,6 @@ public class Calculator : MonoBehaviour
 
             //TODO: Disable thirdband gameobject by using SetActive(false)
            
-            }
 
 
         } else
