@@ -43,7 +43,7 @@ public class Calculator : MonoBehaviour
             //TODO: Disable thirdband gameobject by using SetActive(false)
             foreach(Transform child in ResistorImage)
             {
-                child.GetComponent<Button>().
+                // child.GetComponent<Button>().
             }
 
 
