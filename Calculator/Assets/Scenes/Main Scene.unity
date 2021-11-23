@@ -2835,7 +2835,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 452.99988, y: 172.62999}
+  m_AnchoredPosition: {x: 453.21, y: 150.5}
   m_SizeDelta: {x: 221.101, y: 77}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &237299547
@@ -16248,7 +16248,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 465, y: 296}
+  m_AnchoredPosition: {x: 452.99985, y: 296}
   m_SizeDelta: {x: 515.743, y: 112.577}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1576884262
@@ -20525,6 +20525,11 @@ MonoBehaviour:
   secondBandGroup: {fileID: 1947005536}
   thirdBandGroup: {fileID: 839643956}
   thirdBandObj: {fileID: 452101594}
+  firstVal: 0
+  secVal: 0
+  thirdVal: 0
+  mult: 0
+  tol: 0
 --- !u!1 &2075243136
 GameObject:
   m_ObjectHideFlags: 0

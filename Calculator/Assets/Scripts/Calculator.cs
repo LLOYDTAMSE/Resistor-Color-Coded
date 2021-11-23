@@ -16,14 +16,18 @@ public class Calculator : MonoBehaviour
     public ResistorState resistorState;
     public TMP_Dropdown dropdown;
 
-    [Header("Band Groups")]
+    [Header("Band Groups")] // Transform is used to have children properties.
     public Transform firstBandGroup;
     public Transform secondBandGroup;
-    public Transform thirdBandGroup;
+    public Transform thirdBandGroup; 
     public GameObject thirdBandObj;
 
-    [Header("Values")]
+    [Header("Values")] // int is used to represent the number data.
     public int firstVal;
+    public int secVal;
+    public int thirdVal;
+    public int mult;
+    public int tol;
 
 
     // Start is called before the first frame update
@@ -43,7 +47,7 @@ public class Calculator : MonoBehaviour
                 child.GetComponent<Button>().interactable = false;
             }
 
-            //TODO: Disable thirdband gameobject by using SetActive(false)
+            //Disable thirdband gameobject by using SetActive(false)
             thirdBandObj.SetActive(false);
 
 
@@ -55,13 +59,13 @@ public class Calculator : MonoBehaviour
                 child.GetComponent<Button>().interactable = true;
             }
             
-            //TODO: opposite
+            // Abling thirdband gameobject by using SetActive(true)
             thirdBandObj.SetActive(true);
 
         }
     }
 
-    public void OnStateChange()
+    public void OnStateChange() // Code used in UI dropdown.
     {
         if(dropdown.value == 0)
         {
