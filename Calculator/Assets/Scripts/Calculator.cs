@@ -20,6 +20,7 @@ public class Calculator : MonoBehaviour
     public Transform firstBandGroup;
     public Transform secondBandGroup;
     public Transform thirdBandGroup;
+    public Transform ResistorImage;
 
 
     // Start is called before the first frame update
@@ -40,6 +41,10 @@ public class Calculator : MonoBehaviour
             }
 
             //TODO: Disable thirdband gameobject by using SetActive(false)
+            foreach(Transform child in ResistorImage)
+            {
+                child.GetComponent<Button>().
+            }
 
 
         } else
