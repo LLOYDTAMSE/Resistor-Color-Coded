@@ -20,7 +20,10 @@ public class Calculator : MonoBehaviour
     public Transform firstBandGroup;
     public Transform secondBandGroup;
     public Transform thirdBandGroup;
-    public Transform ResistorImage;
+    public GameObject thirdBandObj;
+
+    [Header("Values")]
+    public int firstVal;
 
 
     // Start is called before the first frame update
@@ -41,7 +44,7 @@ public class Calculator : MonoBehaviour
             }
 
             //TODO: Disable thirdband gameobject by using SetActive(false)
-           
+            thirdBandObj.SetActive(false);
 
 
         } else
@@ -53,6 +56,7 @@ public class Calculator : MonoBehaviour
             }
             
             //TODO: opposite
+            thirdBandObj.SetActive(true);
 
         }
     }
