@@ -20,6 +20,8 @@ public class Calculator : MonoBehaviour
     public Transform firstBandGroup;
     public Transform secondBandGroup;
     public Transform thirdBandGroup; 
+    public Transform multiGroup;
+    public Transform tolBandGroup; 
     public GameObject thirdBandObj;
 
     [Header("Values")] // int is used to represent the number data.
@@ -33,7 +35,7 @@ public class Calculator : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-
+        
     }
 
     // Update is called once per frame
