@@ -67,7 +67,7 @@ public class ResButton : MonoBehaviour
         resistor.images[childId].color = GetComponent<Image>().color; //Set the first band's color to this button's color.
     }
 
-    void UpdateValue(int childId)
+    void UpdateValue(int childId) // put values on bands color.
     {
         switch (buttonType)
         {

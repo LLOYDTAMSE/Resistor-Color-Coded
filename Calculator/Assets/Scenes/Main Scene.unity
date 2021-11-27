@@ -662,6 +662,7 @@ MonoBehaviour:
   value: 0
   buttonType: 3
   resistor: {fileID: 0}
+  calculator: {fileID: 0}
 --- !u!1 &23124649
 GameObject:
   m_ObjectHideFlags: 0
@@ -2088,6 +2089,7 @@ MonoBehaviour:
   value: 0
   buttonType: 4
   resistor: {fileID: 0}
+  calculator: {fileID: 0}
 --- !u!1 &132590990
 GameObject:
   m_ObjectHideFlags: 0
@@ -3001,6 +3003,7 @@ MonoBehaviour:
   value: 0
   buttonType: 4
   resistor: {fileID: 0}
+  calculator: {fileID: 0}
 --- !u!1 &260862943
 GameObject:
   m_ObjectHideFlags: 0
@@ -3138,6 +3141,7 @@ MonoBehaviour:
   value: 0
   buttonType: 4
   resistor: {fileID: 0}
+  calculator: {fileID: 0}
 --- !u!1 &286515136
 GameObject:
   m_ObjectHideFlags: 0
@@ -3275,6 +3279,7 @@ MonoBehaviour:
   value: 0
   buttonType: 1
   resistor: {fileID: 0}
+  calculator: {fileID: 0}
 --- !u!1 &287712452
 GameObject:
   m_ObjectHideFlags: 0
@@ -3412,6 +3417,7 @@ MonoBehaviour:
   value: 0
   buttonType: 1
   resistor: {fileID: 0}
+  calculator: {fileID: 0}
 --- !u!1 &309994837
 GameObject:
   m_ObjectHideFlags: 0
@@ -3549,6 +3555,7 @@ MonoBehaviour:
   value: 0
   buttonType: 0
   resistor: {fileID: 0}
+  calculator: {fileID: 0}
 --- !u!1 &311261026
 GameObject:
   m_ObjectHideFlags: 0
@@ -3686,6 +3693,7 @@ MonoBehaviour:
   value: 0
   buttonType: 3
   resistor: {fileID: 0}
+  calculator: {fileID: 0}
 --- !u!1 &331503718
 GameObject:
   m_ObjectHideFlags: 0
@@ -3957,6 +3965,7 @@ MonoBehaviour:
   value: 0
   buttonType: 3
   resistor: {fileID: 0}
+  calculator: {fileID: 0}
 --- !u!1 &355934788
 GameObject:
   m_ObjectHideFlags: 0
@@ -4228,6 +4237,7 @@ MonoBehaviour:
   value: 0
   buttonType: 2
   resistor: {fileID: 0}
+  calculator: {fileID: 0}
 --- !u!1 &365025572
 GameObject:
   m_ObjectHideFlags: 0
@@ -5035,6 +5045,7 @@ MonoBehaviour:
   value: 0
   buttonType: 4
   resistor: {fileID: 0}
+  calculator: {fileID: 0}
 --- !u!1 &449131767
 GameObject:
   m_ObjectHideFlags: 0
@@ -5322,6 +5333,7 @@ MonoBehaviour:
   value: 0
   buttonType: 1
   resistor: {fileID: 0}
+  calculator: {fileID: 0}
 --- !u!1 &470104010
 GameObject:
   m_ObjectHideFlags: 0
@@ -5459,6 +5471,7 @@ MonoBehaviour:
   value: 0
   buttonType: 3
   resistor: {fileID: 0}
+  calculator: {fileID: 0}
 --- !u!1 &472677503
 GameObject:
   m_ObjectHideFlags: 0
@@ -5987,6 +6000,7 @@ MonoBehaviour:
   value: 0
   buttonType: 3
   resistor: {fileID: 0}
+  calculator: {fileID: 0}
 --- !u!1 &502323272
 GameObject:
   m_ObjectHideFlags: 0
@@ -6020,7 +6034,7 @@ RectTransform:
   m_Children:
   - {fileID: 1880298036}
   m_Father: {fileID: 2052080898}
-  m_RootOrder: 21
+  m_RootOrder: 22
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -6124,6 +6138,7 @@ MonoBehaviour:
   value: 0
   buttonType: 1
   resistor: {fileID: 0}
+  calculator: {fileID: 0}
 --- !u!1 &510878389
 GameObject:
   m_ObjectHideFlags: 0
@@ -6261,6 +6276,7 @@ MonoBehaviour:
   value: 0
   buttonType: 4
   resistor: {fileID: 0}
+  calculator: {fileID: 0}
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -6481,6 +6497,7 @@ MonoBehaviour:
   value: 0
   buttonType: 0
   resistor: {fileID: 0}
+  calculator: {fileID: 0}
 --- !u!1 &543198664
 GameObject:
   m_ObjectHideFlags: 0
@@ -6648,7 +6665,7 @@ RectTransform:
   m_Children:
   - {fileID: 1583541296}
   m_Father: {fileID: 2052080898}
-  m_RootOrder: 22
+  m_RootOrder: 23
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -6752,6 +6769,7 @@ MonoBehaviour:
   value: 0
   buttonType: 2
   resistor: {fileID: 0}
+  calculator: {fileID: 0}
 --- !u!1 &559146782
 GameObject:
   m_ObjectHideFlags: 0
@@ -6889,6 +6907,7 @@ MonoBehaviour:
   value: 0
   buttonType: 0
   resistor: {fileID: 0}
+  calculator: {fileID: 0}
 --- !u!1 &593846908
 GameObject:
   m_ObjectHideFlags: 0
@@ -7026,6 +7045,7 @@ MonoBehaviour:
   value: 0
   buttonType: 3
   resistor: {fileID: 0}
+  calculator: {fileID: 0}
 --- !u!1 &602414762
 GameObject:
   m_ObjectHideFlags: 0
@@ -7297,6 +7317,7 @@ MonoBehaviour:
   value: 0
   buttonType: 2
   resistor: {fileID: 0}
+  calculator: {fileID: 0}
 --- !u!1 &633774717
 GameObject:
   m_ObjectHideFlags: 0
@@ -7655,6 +7676,7 @@ MonoBehaviour:
   value: 0
   buttonType: 0
   resistor: {fileID: 0}
+  calculator: {fileID: 0}
 --- !u!1 &644108640
 GameObject:
   m_ObjectHideFlags: 0
@@ -7792,6 +7814,7 @@ MonoBehaviour:
   value: 0
   buttonType: 2
   resistor: {fileID: 0}
+  calculator: {fileID: 0}
 --- !u!1 &650506264
 GameObject:
   m_ObjectHideFlags: 0
@@ -7968,7 +7991,7 @@ RectTransform:
   - {fileID: 260862944}
   - {fileID: 1194521378}
   m_Father: {fileID: 2052080898}
-  m_RootOrder: 24
+  m_RootOrder: 18
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -8150,6 +8173,7 @@ MonoBehaviour:
   value: 0
   buttonType: 4
   resistor: {fileID: 0}
+  calculator: {fileID: 0}
 --- !u!1 &710549248
 GameObject:
   m_ObjectHideFlags: 0
@@ -8401,6 +8425,7 @@ MonoBehaviour:
   value: 0
   buttonType: 3
   resistor: {fileID: 0}
+  calculator: {fileID: 0}
 --- !u!1 &761481092
 GameObject:
   m_ObjectHideFlags: 0
@@ -8673,6 +8698,7 @@ MonoBehaviour:
   value: 0
   buttonType: 4
   resistor: {fileID: 0}
+  calculator: {fileID: 0}
 --- !u!1 &799033945
 GameObject:
   m_ObjectHideFlags: 0
@@ -8936,6 +8962,7 @@ MonoBehaviour:
   value: 0
   buttonType: 1
   resistor: {fileID: 0}
+  calculator: {fileID: 0}
 --- !u!1 &839643955
 GameObject:
   m_ObjectHideFlags: 0
@@ -9252,6 +9279,7 @@ MonoBehaviour:
   value: 0
   buttonType: 4
   resistor: {fileID: 0}
+  calculator: {fileID: 0}
 --- !u!1 &873018266
 GameObject:
   m_ObjectHideFlags: 0
@@ -9523,6 +9551,7 @@ MonoBehaviour:
   value: 0
   buttonType: 0
   resistor: {fileID: 0}
+  calculator: {fileID: 0}
 --- !u!1 &892841582
 GameObject:
   m_ObjectHideFlags: 0
@@ -9660,6 +9689,7 @@ MonoBehaviour:
   value: 0
   buttonType: 2
   resistor: {fileID: 0}
+  calculator: {fileID: 0}
 --- !u!1 &896812516
 GameObject:
   m_ObjectHideFlags: 0
@@ -10934,6 +10964,7 @@ MonoBehaviour:
   value: 0
   buttonType: 3
   resistor: {fileID: 0}
+  calculator: {fileID: 0}
 --- !u!1 &1012675399
 GameObject:
   m_ObjectHideFlags: 0
@@ -11079,7 +11110,6 @@ GameObject:
   - component: {fileID: 1026254050}
   - component: {fileID: 1026254053}
   - component: {fileID: 1026254052}
-  - component: {fileID: 1026254051}
   m_Layer: 5
   m_Name: Res & Tol
   m_TagString: Untagged
@@ -11107,50 +11137,6 @@ RectTransform:
   m_AnchoredPosition: {x: 268.706, y: 27.575008}
   m_SizeDelta: {x: 198.43, y: 78.81}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1026254051
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1026254049}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Navigation:
-    m_Mode: 3
-    m_WrapAround: 0
-    m_SelectOnUp: {fileID: 0}
-    m_SelectOnDown: {fileID: 0}
-    m_SelectOnLeft: {fileID: 0}
-    m_SelectOnRight: {fileID: 0}
-  m_Transition: 1
-  m_Colors:
-    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
-    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
-    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
-    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
-    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
-    m_ColorMultiplier: 1
-    m_FadeDuration: 0.1
-  m_SpriteState:
-    m_HighlightedSprite: {fileID: 0}
-    m_PressedSprite: {fileID: 0}
-    m_SelectedSprite: {fileID: 0}
-    m_DisabledSprite: {fileID: 0}
-  m_AnimationTriggers:
-    m_NormalTrigger: Normal
-    m_HighlightedTrigger: Highlighted
-    m_PressedTrigger: Pressed
-    m_SelectedTrigger: Selected
-    m_DisabledTrigger: Disabled
-  m_Interactable: 1
-  m_TargetGraphic: {fileID: 1026254052}
-  m_OnClick:
-    m_PersistentCalls:
-      m_Calls: []
 --- !u!114 &1026254052
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11326,6 +11312,7 @@ MonoBehaviour:
   value: 0
   buttonType: 4
   resistor: {fileID: 0}
+  calculator: {fileID: 0}
 --- !u!1 &1051467417
 GameObject:
   m_ObjectHideFlags: 0
@@ -11731,6 +11718,7 @@ MonoBehaviour:
   value: 0
   buttonType: 1
   resistor: {fileID: 0}
+  calculator: {fileID: 0}
 --- !u!1 &1067576576
 GameObject:
   m_ObjectHideFlags: 0
@@ -12256,7 +12244,7 @@ RectTransform:
   m_Children:
   - {fileID: 761481093}
   m_Father: {fileID: 2052080898}
-  m_RootOrder: 18
+  m_RootOrder: 19
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -12360,6 +12348,7 @@ MonoBehaviour:
   value: 0
   buttonType: 0
   resistor: {fileID: 0}
+  calculator: {fileID: 0}
 --- !u!1 &1097239209
 GameObject:
   m_ObjectHideFlags: 0
@@ -12697,7 +12686,7 @@ RectTransform:
   m_Children:
   - {fileID: 393152961}
   m_Father: {fileID: 2052080898}
-  m_RootOrder: 23
+  m_RootOrder: 24
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -12801,6 +12790,7 @@ MonoBehaviour:
   value: 0
   buttonType: 2
   resistor: {fileID: 0}
+  calculator: {fileID: 0}
 --- !u!1 &1130192684
 GameObject:
   m_ObjectHideFlags: 0
@@ -12938,6 +12928,7 @@ MonoBehaviour:
   value: 0
   buttonType: 2
   resistor: {fileID: 0}
+  calculator: {fileID: 0}
 --- !u!1 &1145148901
 GameObject:
   m_ObjectHideFlags: 0
@@ -13075,6 +13066,7 @@ MonoBehaviour:
   value: 0
   buttonType: 2
   resistor: {fileID: 0}
+  calculator: {fileID: 0}
 --- !u!1 &1179771975
 GameObject:
   m_ObjectHideFlags: 0
@@ -13408,6 +13400,7 @@ MonoBehaviour:
   value: 0
   buttonType: 4
   resistor: {fileID: 0}
+  calculator: {fileID: 0}
 --- !u!1 &1198240569
 GameObject:
   m_ObjectHideFlags: 0
@@ -13828,6 +13821,7 @@ MonoBehaviour:
   value: 0
   buttonType: 3
   resistor: {fileID: 0}
+  calculator: {fileID: 0}
 --- !u!1 &1243848787
 GameObject:
   m_ObjectHideFlags: 0
@@ -13937,7 +13931,7 @@ RectTransform:
   m_Children:
   - {fileID: 543198665}
   m_Father: {fileID: 2052080898}
-  m_RootOrder: 19
+  m_RootOrder: 20
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -14041,6 +14035,7 @@ MonoBehaviour:
   value: 0
   buttonType: 0
   resistor: {fileID: 0}
+  calculator: {fileID: 0}
 --- !u!1 &1271432324
 GameObject:
   m_ObjectHideFlags: 0
@@ -14923,6 +14918,7 @@ MonoBehaviour:
   value: 0
   buttonType: 0
   resistor: {fileID: 0}
+  calculator: {fileID: 0}
 --- !u!1 &1314009448
 GameObject:
   m_ObjectHideFlags: 0
@@ -14934,7 +14930,6 @@ GameObject:
   - component: {fileID: 1314009449}
   - component: {fileID: 1314009452}
   - component: {fileID: 1314009451}
-  - component: {fileID: 1314009450}
   m_Layer: 5
   m_Name: Min. Res
   m_TagString: Untagged
@@ -14962,50 +14957,6 @@ RectTransform:
   m_AnchoredPosition: {x: 268.706, y: -66.52399}
   m_SizeDelta: {x: 198.439, y: 60.231}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1314009450
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1314009448}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Navigation:
-    m_Mode: 3
-    m_WrapAround: 0
-    m_SelectOnUp: {fileID: 0}
-    m_SelectOnDown: {fileID: 0}
-    m_SelectOnLeft: {fileID: 0}
-    m_SelectOnRight: {fileID: 0}
-  m_Transition: 1
-  m_Colors:
-    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
-    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
-    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
-    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
-    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
-    m_ColorMultiplier: 1
-    m_FadeDuration: 0.1
-  m_SpriteState:
-    m_HighlightedSprite: {fileID: 0}
-    m_PressedSprite: {fileID: 0}
-    m_SelectedSprite: {fileID: 0}
-    m_DisabledSprite: {fileID: 0}
-  m_AnimationTriggers:
-    m_NormalTrigger: Normal
-    m_HighlightedTrigger: Highlighted
-    m_PressedTrigger: Pressed
-    m_SelectedTrigger: Selected
-    m_DisabledTrigger: Disabled
-  m_Interactable: 1
-  m_TargetGraphic: {fileID: 1314009451}
-  m_OnClick:
-    m_PersistentCalls:
-      m_Calls: []
 --- !u!114 &1314009451
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -15717,6 +15668,7 @@ MonoBehaviour:
   value: 0
   buttonType: 3
   resistor: {fileID: 0}
+  calculator: {fileID: 0}
 --- !u!1 &1431638270
 GameObject:
   m_ObjectHideFlags: 0
@@ -15728,7 +15680,6 @@ GameObject:
   - component: {fileID: 1431638271}
   - component: {fileID: 1431638274}
   - component: {fileID: 1431638273}
-  - component: {fileID: 1431638272}
   m_Layer: 5
   m_Name: MaxRes
   m_TagString: Untagged
@@ -15756,50 +15707,6 @@ RectTransform:
   m_AnchoredPosition: {x: 268.706, y: -146.99998}
   m_SizeDelta: {x: 198.439, y: 61.176}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1431638272
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1431638270}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Navigation:
-    m_Mode: 3
-    m_WrapAround: 0
-    m_SelectOnUp: {fileID: 0}
-    m_SelectOnDown: {fileID: 0}
-    m_SelectOnLeft: {fileID: 0}
-    m_SelectOnRight: {fileID: 0}
-  m_Transition: 1
-  m_Colors:
-    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
-    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
-    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
-    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
-    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
-    m_ColorMultiplier: 1
-    m_FadeDuration: 0.1
-  m_SpriteState:
-    m_HighlightedSprite: {fileID: 0}
-    m_PressedSprite: {fileID: 0}
-    m_SelectedSprite: {fileID: 0}
-    m_DisabledSprite: {fileID: 0}
-  m_AnimationTriggers:
-    m_NormalTrigger: Normal
-    m_HighlightedTrigger: Highlighted
-    m_PressedTrigger: Pressed
-    m_SelectedTrigger: Selected
-    m_DisabledTrigger: Disabled
-  m_Interactable: 1
-  m_TargetGraphic: {fileID: 1431638273}
-  m_OnClick:
-    m_PersistentCalls:
-      m_Calls: []
 --- !u!114 &1431638273
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -15975,6 +15882,7 @@ MonoBehaviour:
   value: 0
   buttonType: 0
   resistor: {fileID: 0}
+  calculator: {fileID: 0}
 --- !u!1 &1434449290
 GameObject:
   m_ObjectHideFlags: 0
@@ -16112,6 +16020,7 @@ MonoBehaviour:
   value: 0
   buttonType: 1
   resistor: {fileID: 0}
+  calculator: {fileID: 0}
 --- !u!1 &1435555028
 GameObject:
   m_ObjectHideFlags: 0
@@ -16249,6 +16158,7 @@ MonoBehaviour:
   value: 0
   buttonType: 0
   resistor: {fileID: 0}
+  calculator: {fileID: 0}
 --- !u!1 &1461502972
 GameObject:
   m_ObjectHideFlags: 0
@@ -16637,7 +16547,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_margin: {x: 0, y: -0.00005340576, z: 0, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -16788,6 +16698,7 @@ MonoBehaviour:
   value: 0
   buttonType: 0
   resistor: {fileID: 0}
+  calculator: {fileID: 0}
 --- !u!1 &1576884260
 GameObject:
   m_ObjectHideFlags: 0
@@ -17335,6 +17246,7 @@ MonoBehaviour:
   value: 0
   buttonType: 4
   resistor: {fileID: 0}
+  calculator: {fileID: 0}
 --- !u!1 &1617823485
 GameObject:
   m_ObjectHideFlags: 0
@@ -17606,6 +17518,7 @@ MonoBehaviour:
   value: 0
   buttonType: 3
   resistor: {fileID: 0}
+  calculator: {fileID: 0}
 --- !u!1 &1632253343
 GameObject:
   m_ObjectHideFlags: 0
@@ -18315,6 +18228,7 @@ MonoBehaviour:
   value: 0
   buttonType: 1
   resistor: {fileID: 0}
+  calculator: {fileID: 0}
 --- !u!1 &1755074038
 GameObject:
   m_ObjectHideFlags: 0
@@ -18840,6 +18754,7 @@ MonoBehaviour:
   value: 0
   buttonType: 2
   resistor: {fileID: 0}
+  calculator: {fileID: 0}
 --- !u!1 &1829793663
 GameObject:
   m_ObjectHideFlags: 0
@@ -19017,6 +18932,7 @@ MonoBehaviour:
   value: 0
   buttonType: 3
   resistor: {fileID: 0}
+  calculator: {fileID: 0}
 --- !u!1 &1857147398
 GameObject:
   m_ObjectHideFlags: 0
@@ -19154,6 +19070,7 @@ MonoBehaviour:
   value: 0
   buttonType: 2
   resistor: {fileID: 0}
+  calculator: {fileID: 0}
 --- !u!1 &1865721450
 GameObject:
   m_ObjectHideFlags: 0
@@ -19425,6 +19342,7 @@ MonoBehaviour:
   value: 0
   buttonType: 4
   resistor: {fileID: 0}
+  calculator: {fileID: 0}
 --- !u!1 &1873261237
 GameObject:
   m_ObjectHideFlags: 0
@@ -19562,6 +19480,7 @@ MonoBehaviour:
   value: 0
   buttonType: 1
   resistor: {fileID: 0}
+  calculator: {fileID: 0}
 --- !u!1 &1874817578
 GameObject:
   m_ObjectHideFlags: 0
@@ -19699,6 +19618,7 @@ MonoBehaviour:
   value: 0
   buttonType: 2
   resistor: {fileID: 0}
+  calculator: {fileID: 0}
 --- !u!1 &1880298035
 GameObject:
   m_ObjectHideFlags: 0
@@ -19970,6 +19890,7 @@ MonoBehaviour:
   value: 0
   buttonType: 1
   resistor: {fileID: 0}
+  calculator: {fileID: 0}
 --- !u!1 &1931004992
 GameObject:
   m_ObjectHideFlags: 0
@@ -20898,6 +20819,7 @@ MonoBehaviour:
   value: 0
   buttonType: 2
   resistor: {fileID: 0}
+  calculator: {fileID: 0}
 --- !u!1 &2039868104
 GameObject:
   m_ObjectHideFlags: 0
@@ -21035,6 +20957,7 @@ MonoBehaviour:
   value: 0
   buttonType: 1
   resistor: {fileID: 0}
+  calculator: {fileID: 0}
 --- !u!1 &2040664674
 GameObject:
   m_ObjectHideFlags: 0
@@ -21172,6 +21095,7 @@ MonoBehaviour:
   value: 0
   buttonType: 0
   resistor: {fileID: 0}
+  calculator: {fileID: 0}
 --- !u!1 &2052080897
 GameObject:
   m_ObjectHideFlags: 0
@@ -21221,13 +21145,13 @@ RectTransform:
   - {fileID: 1947005536}
   - {fileID: 839643956}
   - {fileID: 641506645}
+  - {fileID: 675426442}
   - {fileID: 1088057897}
   - {fileID: 1246677683}
   - {fileID: 2139588416}
   - {fileID: 502323273}
   - {fileID: 554649691}
   - {fileID: 1122849101}
-  - {fileID: 675426442}
   - {fileID: 1829793664}
   m_Father: {fileID: 0}
   m_RootOrder: 2
@@ -21324,6 +21248,7 @@ MonoBehaviour:
   mult: 0
   tol: 0
   resistance: 0
+  resistanceText: {fileID: 1767373525}
 --- !u!1 &2082412235
 GameObject:
   m_ObjectHideFlags: 0
@@ -21835,7 +21760,7 @@ RectTransform:
   m_Children:
   - {fileID: 331503719}
   m_Father: {fileID: 2052080898}
-  m_RootOrder: 20
+  m_RootOrder: 21
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -21939,3 +21864,4 @@ MonoBehaviour:
   value: 0
   buttonType: 1
   resistor: {fileID: 0}
+  calculator: {fileID: 0}

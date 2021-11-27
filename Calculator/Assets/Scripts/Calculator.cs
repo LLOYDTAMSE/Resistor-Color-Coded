@@ -85,19 +85,22 @@ public class Calculator : MonoBehaviour
 
     public void UpdateResistance()
     {
+          
 
+        //  Create an equation to solve the resistance. That matters with the number of bands.
+        if(resistorState == ResistorState.Four)
+        {
+           resistance = firstVal*10 + secVal;
+           resistanceText.text = resistance.ToString( resistance + "Ω");
 
-        // TODO: create an equation to solve the resistance. use firstval, and secval
+        }else 
+        if(resistorState == ResistorState.Five)
+        {
+            resistance = firstVal*100 + secVal*10 + thirdVal;
+            resistanceText.text = resistance.ToString( resistance + "Ω");
 
-        //if fourBands
-
-        // resistance = 
-        
-        // TODO: change resistance text to resistance value (Convert to string + " Ω")
-
-        // resistanceText.text = 
-
-        
-        Debug.Log("Resistance Updated, resistance is now " + resistance + " Ω");
+        }
+          
+    Debug.Log("Resistance Updated, resistance is now " + resistance + " Ω");
     }
 }
