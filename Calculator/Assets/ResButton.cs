@@ -29,7 +29,6 @@ public class ResButton : MonoBehaviour
             delegate 
             {
 
-                calculator.UpdateResistance();
 
                 switch (buttonType)
                 {
@@ -56,6 +55,7 @@ public class ResButton : MonoBehaviour
                 };
 
                 UpdateValue(value);
+                calculator.UpdateResistance();
 
             });
 
