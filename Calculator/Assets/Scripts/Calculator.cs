@@ -31,6 +31,10 @@ public class Calculator : MonoBehaviour
     public int mult;
     public int tol;
 
+    public int resistance;
+
+    public TMP_Text resistanceText;
+
 
     // Start is called before the first frame update
     void Start()
@@ -77,5 +81,23 @@ public class Calculator : MonoBehaviour
         {
             resistorState = ResistorState.Five;
         }
+    }
+
+    public void UpdateResistance()
+    {
+
+
+        // TODO: create an equation to solve the resistance. use firstval, and secval
+
+        //if fourBands
+
+        // resistance = 
+        
+        // TODO: change resistance text to resistance value (Convert to string + " Ω")
+
+        // resistanceText.text = 
+
+        
+        Debug.Log("Resistance Updated, resistance is now " + resistance + " Ω");
     }
 }
