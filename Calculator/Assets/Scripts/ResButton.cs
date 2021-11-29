@@ -92,6 +92,8 @@ public class ResButton : MonoBehaviour
                 
             case ButtonType.multiplier:
 
+
+                //TODO: add all multiplier values
                 switch (childId)
                 {
                     case 0:
@@ -119,11 +121,11 @@ public class ResButton : MonoBehaviour
                 
             case ButtonType.tolerance:
 
-                
+                //TODO: edit all respective values to match the tolerance
                 switch (childId)
                 {
                     case 0:
-                        calculator.tol = 1;
+                        calculator.tol = 0.01f; // this is for 1%
                         break;
                     case 1:
                         calculator.tol = 10;
