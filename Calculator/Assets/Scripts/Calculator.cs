@@ -28,8 +28,8 @@ public class Calculator : MonoBehaviour
     public int firstVal;
     public int secVal;
     public int thirdVal;
-    public int mult;
-    public int tol;
+    public float mult;
+    public float tol;
 
     public int resistance;
 
@@ -39,7 +39,7 @@ public class Calculator : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+        UpdateResistance();
     }
 
     // Update is called once per frame
@@ -81,26 +81,32 @@ public class Calculator : MonoBehaviour
         {
             resistorState = ResistorState.Five;
         }
+
+        UpdateResistance();
     }
 
     public void UpdateResistance()
     {
-          
-
         //  Create an equation to solve the resistance. That matters with the number of bands.
         if(resistorState == ResistorState.Four)
         {
            resistance = firstVal*10 + secVal;
-           resistanceText.text = resistance.ToString( resistance + "Ω");
-
         }else 
         if(resistorState == ResistorState.Five)
         {
             resistance = firstVal*100 + secVal*10 + thirdVal;
-            resistanceText.text = resistance.ToString( resistance + "Ω");
-
         }
+
+        //Declare a float variable for resistance by converting the resistance to float
+        float floatResistance = (float) resistance;
+
+        //Multiplying resistance to the multiplier
+        floatResistance *= mult;
+
+        //Displaying the resistance text
+        resistanceText.text = floatResistance.ToString() + " Ω ±" + (tol * 100).ToString() + "%";
           
-    Debug.Log("Resistance Updated, resistance is now " + resistance + " Ω");
+        Debug.Log("Resistance Updated, resistance is now " + resistanceText.text);
+
     }
 }
