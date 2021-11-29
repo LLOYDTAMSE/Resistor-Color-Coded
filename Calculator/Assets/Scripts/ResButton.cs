@@ -15,6 +15,10 @@ public class ResButton : MonoBehaviour
 
     public Calculator calculator;
 
+    private int K = 1000;
+    private int M = 1000000;
+    private int G = 1000000000;
+
 
     void Start()
     {
@@ -87,13 +91,58 @@ public class ResButton : MonoBehaviour
                 break;
                 
             case ButtonType.multiplier:
-                calculator.thirdVal = childId;
-                Debug.Log("changed mult value to " + childId);
+
+                switch (childId)
+                {
+                    case 0:
+                        calculator.mult = 1;
+                        break;
+                    case 1:
+                        calculator.mult = 10;
+                        break;
+                    case 2:
+                        calculator.mult = 100;
+                        break;
+                    case 3:
+                        calculator.mult = 1*K;
+                        break;
+                    case 4:
+                        calculator.mult = 10*K;
+                        break;
+                    case 5:
+                        calculator.mult = 100*K;
+                        break;
+                }
+                
+                Debug.Log("changed mult value to " + calculator.mult);
                 break;
                 
             case ButtonType.tolerance:
-                calculator.thirdVal = childId;
-                Debug.Log("changed tol value to " + childId);
+
+                
+                switch (childId)
+                {
+                    case 0:
+                        calculator.tol = 1;
+                        break;
+                    case 1:
+                        calculator.tol = 10;
+                        break;
+                    case 2:
+                        calculator.tol = 100;
+                        break;
+                    case 3:
+                        calculator.tol = 1*K;
+                        break;
+                    case 4:
+                        calculator.tol = 10*K;
+                        break;
+                    case 5:
+                        calculator.tol = 100*K;
+                        break;
+                }
+
+                Debug.Log("changed tol value to " + calculator.tol);
                 break;
         }
     }
