@@ -28,12 +28,17 @@ public class Calculator : MonoBehaviour
     public int firstVal;
     public int secVal;
     public int thirdVal;
-    public float mult; // float is number type where you can use decimals and whole number at the same time.
-    public float tol;
+    public float mult = 1; // float is number type where you can use decimals and whole number at the same time.
+    public float tol = 0.01f; //default value
 
     public int resistance;
 
+    //TODO: create 2 floats named minResistance and maxResistance
+
+    [Header("Textboxes")]
     public TMP_Text resistanceText;
+
+    //TODO: reference min resistance text and max resistance text
 
 
     // Start is called before the first frame update
@@ -103,9 +108,17 @@ public class Calculator : MonoBehaviour
         //Multiplying resistance to the multiplier
         floatResistance *= mult;
 
+        //TODO: declare values for min resistance and max resistance
+        // here
+
+
         //Displaying the resistance text
         resistanceText.text = floatResistance.ToString() + " Ω ±" + (tol * 100).ToString() + "%";
-          
+
+        //TODO: display the min resistance and max resistance to textboxes
+
+
+
         Debug.Log("Resistance Updated, resistance is now " + resistanceText.text);
 
     }
