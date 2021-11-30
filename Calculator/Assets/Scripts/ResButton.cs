@@ -18,6 +18,8 @@ public class ResButton : MonoBehaviour
     private int K = 1000;
     private int M = 1000000;
     private int G = 1000000000;
+    private float GOLD = 0.1f;
+    private float SILV = 0.01f;
 
 
     void Start()
@@ -92,9 +94,9 @@ public class ResButton : MonoBehaviour
                 
             case ButtonType.multiplier:
 
-
-                //TODO: add all multiplier values
-                switch (childId)
+                 // childId is used to get the respective color component in each band. 
+                // create all multiplier values
+                switch (childId) 
                 {
                     case 0:
                         calculator.mult = 1;
@@ -114,6 +116,25 @@ public class ResButton : MonoBehaviour
                     case 5:
                         calculator.mult = 100*K;
                         break;
+                    case 6:
+                        calculator.mult = 1*M;
+                        break;
+                    case 7:
+                        calculator.mult = 10*M;
+                        break;
+                    case 8:
+                        calculator.mult = 100*M;
+                        break;
+                    case 9:
+                        calculator.mult = 1*G;
+                        break;
+                    case 10:
+                        calculator.mult = 1*GOLD;
+                        break;
+                    case 11:
+                        calculator.mult = 1*SILV;
+                        break;
+                   
                 }
                 
                 Debug.Log("changed mult value to " + calculator.mult);
@@ -121,26 +142,29 @@ public class ResButton : MonoBehaviour
                 
             case ButtonType.tolerance:
 
-                //TODO: edit all respective values to match the tolerance
+                // put respective values to match the tolerance
                 switch (childId)
                 {
                     case 0:
                         calculator.tol = 0.01f; // this is for 1%
                         break;
                     case 1:
-                        calculator.tol = 10;
+                        calculator.tol = 0.02f;
                         break;
                     case 2:
-                        calculator.tol = 100;
+                        calculator.tol = 0.005f;
                         break;
                     case 3:
-                        calculator.tol = 1*K;
+                        calculator.tol = 0.0025f;
                         break;
                     case 4:
-                        calculator.tol = 10*K;
+                        calculator.tol = 0.001f;
                         break;
                     case 5:
-                        calculator.tol = 100*K;
+                        calculator.tol = 0.05f;
+                        break;
+                    case 6:
+                        calculator.tol = 0.1f;
                         break;
                 }
 

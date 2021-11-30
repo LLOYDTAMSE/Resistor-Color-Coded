@@ -659,10 +659,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e79fb6f89b26c7d4ab117ece43fd709a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  value: 0
-  buttonType: 3
-  resistor: {fileID: 0}
-  calculator: {fileID: 0}
 --- !u!1 &23124649
 GameObject:
   m_ObjectHideFlags: 0
@@ -2086,10 +2082,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e79fb6f89b26c7d4ab117ece43fd709a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  value: 0
-  buttonType: 4
-  resistor: {fileID: 0}
-  calculator: {fileID: 0}
 --- !u!1 &132590990
 GameObject:
   m_ObjectHideFlags: 0
@@ -3000,10 +2992,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e79fb6f89b26c7d4ab117ece43fd709a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  value: 0
-  buttonType: 4
-  resistor: {fileID: 0}
-  calculator: {fileID: 0}
 --- !u!1 &260862943
 GameObject:
   m_ObjectHideFlags: 0
@@ -3138,10 +3126,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e79fb6f89b26c7d4ab117ece43fd709a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  value: 0
-  buttonType: 4
-  resistor: {fileID: 0}
-  calculator: {fileID: 0}
 --- !u!1 &286515136
 GameObject:
   m_ObjectHideFlags: 0
@@ -3276,10 +3260,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e79fb6f89b26c7d4ab117ece43fd709a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  value: 0
-  buttonType: 1
-  resistor: {fileID: 0}
-  calculator: {fileID: 0}
 --- !u!1 &287712452
 GameObject:
   m_ObjectHideFlags: 0
@@ -3414,10 +3394,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e79fb6f89b26c7d4ab117ece43fd709a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  value: 0
-  buttonType: 1
-  resistor: {fileID: 0}
-  calculator: {fileID: 0}
 --- !u!1 &309994837
 GameObject:
   m_ObjectHideFlags: 0
@@ -3552,10 +3528,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e79fb6f89b26c7d4ab117ece43fd709a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  value: 0
-  buttonType: 0
-  resistor: {fileID: 0}
-  calculator: {fileID: 0}
 --- !u!1 &311261026
 GameObject:
   m_ObjectHideFlags: 0
@@ -3690,10 +3662,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e79fb6f89b26c7d4ab117ece43fd709a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  value: 0
-  buttonType: 3
-  resistor: {fileID: 0}
-  calculator: {fileID: 0}
 --- !u!1 &331503718
 GameObject:
   m_ObjectHideFlags: 0
@@ -3962,10 +3930,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e79fb6f89b26c7d4ab117ece43fd709a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  value: 0
-  buttonType: 3
-  resistor: {fileID: 0}
-  calculator: {fileID: 0}
 --- !u!1 &355934788
 GameObject:
   m_ObjectHideFlags: 0
@@ -4234,10 +4198,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e79fb6f89b26c7d4ab117ece43fd709a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  value: 0
-  buttonType: 2
-  resistor: {fileID: 0}
-  calculator: {fileID: 0}
 --- !u!1 &365025572
 GameObject:
   m_ObjectHideFlags: 0
@@ -5042,10 +5002,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e79fb6f89b26c7d4ab117ece43fd709a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  value: 0
-  buttonType: 4
-  resistor: {fileID: 0}
-  calculator: {fileID: 0}
 --- !u!1 &449131767
 GameObject:
   m_ObjectHideFlags: 0
@@ -5330,10 +5286,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e79fb6f89b26c7d4ab117ece43fd709a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  value: 0
-  buttonType: 1
-  resistor: {fileID: 0}
-  calculator: {fileID: 0}
 --- !u!1 &470104010
 GameObject:
   m_ObjectHideFlags: 0
@@ -5468,10 +5420,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e79fb6f89b26c7d4ab117ece43fd709a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  value: 0
-  buttonType: 3
-  resistor: {fileID: 0}
-  calculator: {fileID: 0}
 --- !u!1 &472677503
 GameObject:
   m_ObjectHideFlags: 0
@@ -5997,10 +5945,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e79fb6f89b26c7d4ab117ece43fd709a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  value: 0
-  buttonType: 3
-  resistor: {fileID: 0}
-  calculator: {fileID: 0}
 --- !u!1 &502323272
 GameObject:
   m_ObjectHideFlags: 0
@@ -6135,10 +6079,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e79fb6f89b26c7d4ab117ece43fd709a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  value: 0
-  buttonType: 1
-  resistor: {fileID: 0}
-  calculator: {fileID: 0}
 --- !u!1 &510878389
 GameObject:
   m_ObjectHideFlags: 0
@@ -6273,10 +6213,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e79fb6f89b26c7d4ab117ece43fd709a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  value: 0
-  buttonType: 4
-  resistor: {fileID: 0}
-  calculator: {fileID: 0}
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -6494,10 +6430,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e79fb6f89b26c7d4ab117ece43fd709a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  value: 0
-  buttonType: 0
-  resistor: {fileID: 0}
-  calculator: {fileID: 0}
 --- !u!1 &543198664
 GameObject:
   m_ObjectHideFlags: 0
@@ -6766,10 +6698,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e79fb6f89b26c7d4ab117ece43fd709a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  value: 0
-  buttonType: 2
-  resistor: {fileID: 0}
-  calculator: {fileID: 0}
 --- !u!1 &559146782
 GameObject:
   m_ObjectHideFlags: 0
@@ -6904,10 +6832,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e79fb6f89b26c7d4ab117ece43fd709a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  value: 0
-  buttonType: 0
-  resistor: {fileID: 0}
-  calculator: {fileID: 0}
 --- !u!1 &593846908
 GameObject:
   m_ObjectHideFlags: 0
@@ -7042,10 +6966,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e79fb6f89b26c7d4ab117ece43fd709a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  value: 0
-  buttonType: 3
-  resistor: {fileID: 0}
-  calculator: {fileID: 0}
 --- !u!1 &602414762
 GameObject:
   m_ObjectHideFlags: 0
@@ -7314,10 +7234,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e79fb6f89b26c7d4ab117ece43fd709a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  value: 0
-  buttonType: 2
-  resistor: {fileID: 0}
-  calculator: {fileID: 0}
 --- !u!1 &633774717
 GameObject:
   m_ObjectHideFlags: 0
@@ -7464,7 +7380,7 @@ GameObject:
   - component: {fileID: 641506648}
   - component: {fileID: 641506647}
   m_Layer: 5
-  m_Name: Multiplier
+  m_Name: Mult
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -7673,10 +7589,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e79fb6f89b26c7d4ab117ece43fd709a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  value: 0
-  buttonType: 0
-  resistor: {fileID: 0}
-  calculator: {fileID: 0}
 --- !u!1 &644108640
 GameObject:
   m_ObjectHideFlags: 0
@@ -7811,10 +7723,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e79fb6f89b26c7d4ab117ece43fd709a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  value: 0
-  buttonType: 2
-  resistor: {fileID: 0}
-  calculator: {fileID: 0}
 --- !u!1 &650506264
 GameObject:
   m_ObjectHideFlags: 0
@@ -7961,7 +7869,7 @@ GameObject:
   - component: {fileID: 675426445}
   - component: {fileID: 675426444}
   m_Layer: 5
-  m_Name: Tolerance
+  m_Name: Tol
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -8165,10 +8073,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e79fb6f89b26c7d4ab117ece43fd709a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  value: 0
-  buttonType: 4
-  resistor: {fileID: 0}
-  calculator: {fileID: 0}
 --- !u!1 &710549248
 GameObject:
   m_ObjectHideFlags: 0
@@ -8417,10 +8321,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e79fb6f89b26c7d4ab117ece43fd709a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  value: 0
-  buttonType: 3
-  resistor: {fileID: 0}
-  calculator: {fileID: 0}
 --- !u!1 &761481092
 GameObject:
   m_ObjectHideFlags: 0
@@ -8690,10 +8590,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e79fb6f89b26c7d4ab117ece43fd709a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  value: 0
-  buttonType: 4
-  resistor: {fileID: 0}
-  calculator: {fileID: 0}
 --- !u!1 &799033945
 GameObject:
   m_ObjectHideFlags: 0
@@ -8954,10 +8850,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e79fb6f89b26c7d4ab117ece43fd709a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  value: 0
-  buttonType: 1
-  resistor: {fileID: 0}
-  calculator: {fileID: 0}
 --- !u!1 &839643955
 GameObject:
   m_ObjectHideFlags: 0
@@ -9271,10 +9163,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e79fb6f89b26c7d4ab117ece43fd709a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  value: 0
-  buttonType: 4
-  resistor: {fileID: 0}
-  calculator: {fileID: 0}
 --- !u!1 &873018266
 GameObject:
   m_ObjectHideFlags: 0
@@ -9543,10 +9431,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e79fb6f89b26c7d4ab117ece43fd709a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  value: 0
-  buttonType: 0
-  resistor: {fileID: 0}
-  calculator: {fileID: 0}
 --- !u!1 &892841582
 GameObject:
   m_ObjectHideFlags: 0
@@ -9681,10 +9565,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e79fb6f89b26c7d4ab117ece43fd709a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  value: 0
-  buttonType: 2
-  resistor: {fileID: 0}
-  calculator: {fileID: 0}
 --- !u!1 &896812516
 GameObject:
   m_ObjectHideFlags: 0
@@ -10956,10 +10836,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e79fb6f89b26c7d4ab117ece43fd709a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  value: 0
-  buttonType: 3
-  resistor: {fileID: 0}
-  calculator: {fileID: 0}
 --- !u!1 &1012675399
 GameObject:
   m_ObjectHideFlags: 0
@@ -11304,10 +11180,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e79fb6f89b26c7d4ab117ece43fd709a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  value: 0
-  buttonType: 4
-  resistor: {fileID: 0}
-  calculator: {fileID: 0}
 --- !u!1 &1051467417
 GameObject:
   m_ObjectHideFlags: 0
@@ -11710,10 +11582,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e79fb6f89b26c7d4ab117ece43fd709a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  value: 0
-  buttonType: 1
-  resistor: {fileID: 0}
-  calculator: {fileID: 0}
 --- !u!1 &1067576576
 GameObject:
   m_ObjectHideFlags: 0
@@ -12340,10 +12208,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e79fb6f89b26c7d4ab117ece43fd709a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  value: 0
-  buttonType: 0
-  resistor: {fileID: 0}
-  calculator: {fileID: 0}
 --- !u!1 &1097239209
 GameObject:
   m_ObjectHideFlags: 0
@@ -12782,10 +12646,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e79fb6f89b26c7d4ab117ece43fd709a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  value: 0
-  buttonType: 2
-  resistor: {fileID: 0}
-  calculator: {fileID: 0}
 --- !u!1 &1130192684
 GameObject:
   m_ObjectHideFlags: 0
@@ -12920,10 +12780,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e79fb6f89b26c7d4ab117ece43fd709a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  value: 0
-  buttonType: 2
-  resistor: {fileID: 0}
-  calculator: {fileID: 0}
 --- !u!1 &1145148901
 GameObject:
   m_ObjectHideFlags: 0
@@ -13058,10 +12914,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e79fb6f89b26c7d4ab117ece43fd709a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  value: 0
-  buttonType: 2
-  resistor: {fileID: 0}
-  calculator: {fileID: 0}
 --- !u!1 &1179771975
 GameObject:
   m_ObjectHideFlags: 0
@@ -13392,10 +13244,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e79fb6f89b26c7d4ab117ece43fd709a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  value: 0
-  buttonType: 4
-  resistor: {fileID: 0}
-  calculator: {fileID: 0}
 --- !u!1 &1198240569
 GameObject:
   m_ObjectHideFlags: 0
@@ -13813,10 +13661,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e79fb6f89b26c7d4ab117ece43fd709a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  value: 0
-  buttonType: 3
-  resistor: {fileID: 0}
-  calculator: {fileID: 0}
 --- !u!1 &1243848787
 GameObject:
   m_ObjectHideFlags: 0
@@ -14027,10 +13871,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e79fb6f89b26c7d4ab117ece43fd709a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  value: 0
-  buttonType: 0
-  resistor: {fileID: 0}
-  calculator: {fileID: 0}
 --- !u!1 &1271432324
 GameObject:
   m_ObjectHideFlags: 0
@@ -14910,10 +14750,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e79fb6f89b26c7d4ab117ece43fd709a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  value: 0
-  buttonType: 0
-  resistor: {fileID: 0}
-  calculator: {fileID: 0}
 --- !u!1 &1314009448
 GameObject:
   m_ObjectHideFlags: 0
@@ -15660,10 +15496,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e79fb6f89b26c7d4ab117ece43fd709a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  value: 0
-  buttonType: 3
-  resistor: {fileID: 0}
-  calculator: {fileID: 0}
 --- !u!1 &1431638270
 GameObject:
   m_ObjectHideFlags: 0
@@ -15874,10 +15706,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e79fb6f89b26c7d4ab117ece43fd709a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  value: 0
-  buttonType: 0
-  resistor: {fileID: 0}
-  calculator: {fileID: 0}
 --- !u!1 &1434449290
 GameObject:
   m_ObjectHideFlags: 0
@@ -16012,10 +15840,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e79fb6f89b26c7d4ab117ece43fd709a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  value: 0
-  buttonType: 1
-  resistor: {fileID: 0}
-  calculator: {fileID: 0}
 --- !u!1 &1435555028
 GameObject:
   m_ObjectHideFlags: 0
@@ -16150,10 +15974,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e79fb6f89b26c7d4ab117ece43fd709a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  value: 0
-  buttonType: 0
-  resistor: {fileID: 0}
-  calculator: {fileID: 0}
 --- !u!1 &1461502972
 GameObject:
   m_ObjectHideFlags: 0
@@ -16690,10 +16510,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e79fb6f89b26c7d4ab117ece43fd709a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  value: 0
-  buttonType: 0
-  resistor: {fileID: 0}
-  calculator: {fileID: 0}
 --- !u!1 &1576884260
 GameObject:
   m_ObjectHideFlags: 0
@@ -16814,12 +16630,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 96a6f0096f0e618419f8bba660ee6774, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  images:
-  - {fileID: 1813327741}
-  - {fileID: 942905550}
-  - {fileID: 452101596}
-  - {fileID: 449131769}
-  - {fileID: 952790215}
 --- !u!1 &1583541295
 GameObject:
   m_ObjectHideFlags: 0
@@ -17238,10 +17048,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e79fb6f89b26c7d4ab117ece43fd709a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  value: 0
-  buttonType: 4
-  resistor: {fileID: 0}
-  calculator: {fileID: 0}
 --- !u!1 &1617823485
 GameObject:
   m_ObjectHideFlags: 0
@@ -17510,10 +17316,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e79fb6f89b26c7d4ab117ece43fd709a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  value: 0
-  buttonType: 3
-  resistor: {fileID: 0}
-  calculator: {fileID: 0}
 --- !u!1 &1632253343
 GameObject:
   m_ObjectHideFlags: 0
@@ -18220,10 +18022,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e79fb6f89b26c7d4ab117ece43fd709a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  value: 0
-  buttonType: 1
-  resistor: {fileID: 0}
-  calculator: {fileID: 0}
 --- !u!1 &1755074038
 GameObject:
   m_ObjectHideFlags: 0
@@ -18746,10 +18544,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e79fb6f89b26c7d4ab117ece43fd709a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  value: 0
-  buttonType: 2
-  resistor: {fileID: 0}
-  calculator: {fileID: 0}
 --- !u!1 &1829793663
 GameObject:
   m_ObjectHideFlags: 0
@@ -18924,10 +18718,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e79fb6f89b26c7d4ab117ece43fd709a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  value: 0
-  buttonType: 3
-  resistor: {fileID: 0}
-  calculator: {fileID: 0}
 --- !u!1 &1857147398
 GameObject:
   m_ObjectHideFlags: 0
@@ -19062,10 +18852,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e79fb6f89b26c7d4ab117ece43fd709a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  value: 0
-  buttonType: 2
-  resistor: {fileID: 0}
-  calculator: {fileID: 0}
 --- !u!1 &1865721450
 GameObject:
   m_ObjectHideFlags: 0
@@ -19334,10 +19120,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e79fb6f89b26c7d4ab117ece43fd709a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  value: 0
-  buttonType: 4
-  resistor: {fileID: 0}
-  calculator: {fileID: 0}
 --- !u!1 &1873261237
 GameObject:
   m_ObjectHideFlags: 0
@@ -19472,10 +19254,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e79fb6f89b26c7d4ab117ece43fd709a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  value: 0
-  buttonType: 1
-  resistor: {fileID: 0}
-  calculator: {fileID: 0}
 --- !u!1 &1874817578
 GameObject:
   m_ObjectHideFlags: 0
@@ -19610,10 +19388,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e79fb6f89b26c7d4ab117ece43fd709a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  value: 0
-  buttonType: 2
-  resistor: {fileID: 0}
-  calculator: {fileID: 0}
 --- !u!1 &1880298035
 GameObject:
   m_ObjectHideFlags: 0
@@ -19882,10 +19656,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e79fb6f89b26c7d4ab117ece43fd709a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  value: 0
-  buttonType: 1
-  resistor: {fileID: 0}
-  calculator: {fileID: 0}
 --- !u!1 &1931004992
 GameObject:
   m_ObjectHideFlags: 0
@@ -20811,10 +20581,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e79fb6f89b26c7d4ab117ece43fd709a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  value: 0
-  buttonType: 2
-  resistor: {fileID: 0}
-  calculator: {fileID: 0}
 --- !u!1 &2039868104
 GameObject:
   m_ObjectHideFlags: 0
@@ -20949,10 +20715,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e79fb6f89b26c7d4ab117ece43fd709a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  value: 0
-  buttonType: 1
-  resistor: {fileID: 0}
-  calculator: {fileID: 0}
 --- !u!1 &2040664674
 GameObject:
   m_ObjectHideFlags: 0
@@ -21087,10 +20849,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e79fb6f89b26c7d4ab117ece43fd709a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  value: 0
-  buttonType: 0
-  resistor: {fileID: 0}
-  calculator: {fileID: 0}
 --- !u!1 &2052080897
 GameObject:
   m_ObjectHideFlags: 0
@@ -21239,8 +20997,8 @@ MonoBehaviour:
   firstBandGroup: {fileID: 1755074039}
   secondBandGroup: {fileID: 1947005536}
   thirdBandGroup: {fileID: 839643956}
-  multiGroup: {fileID: 0}
-  tolBandGroup: {fileID: 0}
+  multiGroup: {fileID: 449131768}
+  tolBandGroup: {fileID: 952790214}
   thirdBandObj: {fileID: 452101594}
   firstVal: 0
   secVal: 0
@@ -21861,7 +21619,3 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e79fb6f89b26c7d4ab117ece43fd709a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  value: 0
-  buttonType: 1
-  resistor: {fileID: 0}
-  calculator: {fileID: 0}

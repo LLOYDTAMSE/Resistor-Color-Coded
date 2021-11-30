@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
-using TMPro;
+using TMPro; // allow to use the textmesh pro in unity UI.
 
 public class Calculator : MonoBehaviour
 {
@@ -28,7 +28,7 @@ public class Calculator : MonoBehaviour
     public int firstVal;
     public int secVal;
     public int thirdVal;
-    public float mult;
+    public float mult; // float is number type where you can use decimals and whole number at the same time.
     public float tol;
 
     public int resistance;
@@ -71,7 +71,7 @@ public class Calculator : MonoBehaviour
         }
     }
 
-    public void OnStateChange() // Code used in UI dropdown.
+    public void OnStateChange() // Code used in UI dropdown or in choosing Bands.
     {
         if(dropdown.value == 0)
         {
