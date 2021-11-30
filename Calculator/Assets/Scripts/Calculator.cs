@@ -33,12 +33,16 @@ public class Calculator : MonoBehaviour
 
     public int resistance;
 
-    //TODO: create 2 floats named minResistance and maxResistance
+    // create 2 floats named minResistance and maxResistance
+    public float minResistance;
+    public float maxResistance;
 
     [Header("Textboxes")]
     public TMP_Text resistanceText;
+    public TMP_Text minResText;
+    public TMP_Text maxResText;
 
-    //TODO: reference min resistance text and max resistance text
+    //create reference  for min resistance text and max resistance text
 
 
     // Start is called before the first frame update
@@ -108,18 +112,23 @@ public class Calculator : MonoBehaviour
         //Multiplying resistance to the multiplier
         floatResistance *= mult;
 
-        //TODO: declare values for min resistance and max resistance
-        // here
+        // Declare values for min resistance and max resistance
+        minResistance = floatResistance*(1-tol);
+        maxResistance = floatResistance*(1+tol);
 
-
+        
         //Displaying the resistance text
         resistanceText.text = floatResistance.ToString() + " Ω ±" + (tol * 100).ToString() + "%";
+        minResText.text = minResistance.ToString() + " Ω";
+        maxResText.text = maxResistance.ToString() + " Ω";
 
-        //TODO: display the min resistance and max resistance to textboxes
+        // Display the min resistance and max resistance to textboxes
 
 
-
+        
         Debug.Log("Resistance Updated, resistance is now " + resistanceText.text);
+        Debug.Log("Resistance Updated, Minresistance is now " + minResText.text);
+        Debug.Log("Resistance Updated, Maxresistance is now " + maxResText.text);
 
     }
 }
