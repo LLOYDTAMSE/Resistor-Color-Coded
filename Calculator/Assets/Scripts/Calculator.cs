@@ -42,6 +42,23 @@ public class Calculator : MonoBehaviour
     public TMP_Text minResText;
     public TMP_Text maxResText;
 
+    [Header("TemporaryValues")]
+
+    public int firstValTemp;
+    public int secValTemp;
+    public int thirdValTemp;
+    public float multTemp = 1; // float is number type where you can use decimals and whole number at the same time.
+    public float tolTemp = 0.01f; //default value
+
+    public enum ValueTypes
+    {
+        first, second, third, multiplier, tolerance
+    };
+
+    public ValueTypes lastTouched = ValueTypes.first;
+
+
+
     //create reference  for min resistance text and max resistance text
 
 
@@ -118,9 +135,19 @@ public class Calculator : MonoBehaviour
 
         
         //Displaying the resistance text
-        resistanceText.text = floatResistance.ToString() + " Ω ±" + (tol * 100).ToString() + "%";
-        minResText.text = minResistance.ToString() + " Ω";
-        maxResText.text = maxResistance.ToString() + " Ω";
+
+        if( (floatResistance > 0 && floatResistance < 1) || (floatResistance > 999)   )
+        {
+            resistanceText.text = ToSI(floatResistance) + " Ω ±" + (tol * 100).ToString() + "%";
+            minResText.text = ToSI(minResistance) + " Ω";
+            maxResText.text = ToSI(maxResistance) + " Ω";
+        } else
+        {
+            resistanceText.text = floatResistance.ToString() + " Ω ±" + (tol * 100).ToString() + "%";
+            minResText.text = minResistance.ToString() + " Ω";
+            maxResText.text = maxResistance.ToString() + " Ω";
+        }
+
 
         // Display the min resistance and max resistance to textboxes
 
@@ -131,4 +158,60 @@ public class Calculator : MonoBehaviour
         Debug.Log("Resistance Updated, Maxresistance is now " + maxResText.text);
 
     }
+
+
+    //Function to convert double/float to string with metric prefix
+    //example 10000 to 10k
+
+    public string ToSI(float d)
+    {
+
+        char[] incPrefixes = new[] { 'k', 'M', 'G', 'T', 'P', 'E', 'Z', 'Y' };
+        char[] decPrefixes = new[] { 'm', '\u03bc', 'n', 'p', 'f', 'a', 'z', 'y' };
+
+        int degree = (int)Mathf.Floor(Mathf.Log10(Mathf.Abs(d)) / 3);
+        float scaled = d * Mathf.Pow(1000, -degree);
+
+        char? prefix = null;
+
+
+        switch (Mathf.Sign(degree))
+        {
+            case 1: 
+                prefix = incPrefixes[degree - 1];
+                break;
+            case -1:
+                Debug.Log(degree);
+                prefix = decPrefixes[-degree - 1];
+                break;
+        }
+
+        Debug.Log(scaled.ToString() + prefix);
+        return scaled.ToString() + prefix;
+        
+    }
+
+    public void UpdateAllValues(int first, int second, int third, float mul, float toler)
+    {
+        firstVal = first;
+        secVal = second;
+        thirdVal = third;
+        mult = mul;
+        tol = toler;
+
+        UpdateResistance();
+    }
+
+    //TODO: undo
+    //Create a public undo button using temporary values as parameters for UpdateAllValues
+    public void Undo()
+    {
+
+    }
+    
+    //TODO: reset
+    //Create a public Reset Function to be called by a button
+
+
+
 }
