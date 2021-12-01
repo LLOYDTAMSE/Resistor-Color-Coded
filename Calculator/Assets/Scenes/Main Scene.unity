@@ -5833,7 +5833,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 478741015}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 2052080902}
+        m_TargetAssemblyTypeName: Calculator, Assembly-CSharp
+        m_MethodName: Undo
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &478741015
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -21448,6 +21460,12 @@ MonoBehaviour:
   resistanceText: {fileID: 1767373525}
   minResText: {fileID: 450612769}
   maxResText: {fileID: 932134837}
+  firstValTemp: 0
+  secValTemp: 0
+  thirdValTemp: 0
+  multTemp: 1
+  tolTemp: 0.01
+  lastTouched: 0
 --- !u!1 &2082412235
 GameObject:
   m_ObjectHideFlags: 0

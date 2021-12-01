@@ -9,7 +9,7 @@ public class Calculator : MonoBehaviour
 
     public enum ResistorState {
         Four,
-        Five
+        Five // enum is special type of class where it contains constant values that included in the app. 
     }
 
     [Header("Resistor State")]
@@ -37,26 +37,27 @@ public class Calculator : MonoBehaviour
     public float minResistance;
     public float maxResistance;
 
-    [Header("Textboxes")]
+    [Header("Textboxes")]  //  Code for the Text Display in App.
     public TMP_Text resistanceText;
     public TMP_Text minResText;
     public TMP_Text maxResText;
 
-    [Header("TemporaryValues")]
-
+    [Header("TemporaryValues")] // Code to be used for the Undo
     public int firstValTemp;
     public int secValTemp;
     public int thirdValTemp;
     public float multTemp = 1; // float is number type where you can use decimals and whole number at the same time.
     public float tolTemp = 0.01f; //default value
+     
+    
 
-    public enum ValueTypes
+    public enum ValueTypes  // to do the undo process
     {
         first, second, third, multiplier, tolerance
     };
 
     public ValueTypes lastTouched = ValueTypes.first;
-
+    
 
 
     //create reference  for min resistance text and max resistance text
@@ -136,7 +137,7 @@ public class Calculator : MonoBehaviour
         
         //Displaying the resistance text
 
-        if( (floatResistance > 0 && floatResistance < 1) || (floatResistance > 999)   )
+        if( (floatResistance > 0 && floatResistance < 1) || (floatResistance > 999)   ) // configure the code to used the mertric prefixes
         {
             resistanceText.text = ToSI(floatResistance) + " Ω ±" + (tol * 100).ToString() + "%";
             minResText.text = ToSI(minResistance) + " Ω";
@@ -206,7 +207,7 @@ public class Calculator : MonoBehaviour
     //Create a public undo button using temporary values as parameters for UpdateAllValues
     public void Undo()
     {
-
+        UpdateAllValues( firstValTemp, secValTemp,thirdValTemp, multTemp, tolTemp );
     }
     
     //TODO: reset

@@ -74,7 +74,7 @@ public class ResButton : MonoBehaviour
     }
 
 
-    //TODO: UNDO
+    
     void UpdateValue(int childId) // put values on bands color.
     {
         switch (buttonType)
@@ -102,7 +102,9 @@ public class ResButton : MonoBehaviour
 
                 
                 calculator.lastTouched = Calculator.ValueTypes.third;
-                //TODO: Finish all temporary value
+                calculator.thirdValTemp = calculator.thirdVal;
+
+
                 calculator.thirdVal = childId;
                 Debug.Log("changed third value to " + childId);
                 break;
@@ -112,11 +114,9 @@ public class ResButton : MonoBehaviour
                  // childId is used to get the respective color component in each band. 
                 // create all multiplier values
 
-
-                
                 calculator.lastTouched = Calculator.ValueTypes.multiplier;
-
-                //TODO: tempValue of mult
+                calculator.multTemp = calculator.mult;
+                //tempValue of mult
 
                 switch (childId) 
                 {
@@ -166,7 +166,8 @@ public class ResButton : MonoBehaviour
 
                 
                 calculator.lastTouched = Calculator.ValueTypes.tolerance;
-                //TODO: tolerance temp value
+                calculator.tolTemp = calculator.tol;
+                // tolerance temp value
 
                 // put respective values to match the tolerance
                 switch (childId)
