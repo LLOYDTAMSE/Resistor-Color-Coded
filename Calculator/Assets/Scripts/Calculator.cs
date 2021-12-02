@@ -137,6 +137,8 @@ public class Calculator : MonoBehaviour
         
         //Displaying the resistance text
 
+        Debug.Log(tol);
+
         if( (floatResistance > 0 && floatResistance < 1) || (floatResistance > 999)   ) // configure the code to used the mertric prefixes
         {
             resistanceText.text = ToSI(floatResistance) + " Ω ±" + (tol * 100).ToString() + "%";
@@ -207,12 +209,57 @@ public class Calculator : MonoBehaviour
     //Create a public undo button using temporary values as parameters for UpdateAllValues
     public void Undo()
     {
-        UpdateAllValues( firstValTemp, secValTemp,thirdValTemp, multTemp, tolTemp );
+        switch (lastTouched)
+        {
+            case ValueTypes.first:
+                UpdateAllValues( firstValTemp, secVal, thirdVal, mult, tol );
+                break;
+            case ValueTypes.second:
+                UpdateAllValues( firstVal, secValTemp, thirdVal, mult, tol );
+                break;
+            case ValueTypes.third:
+                UpdateAllValues( firstVal, secVal, thirdValTemp, mult, tol );
+                break;
+            case ValueTypes.multiplier:
+                UpdateAllValues( firstVal, secVal, thirdVal, multTemp, tol );
+                break;
+            case ValueTypes.tolerance:
+                UpdateAllValues( firstVal, secVal, thirdVal, mult, tolTemp );
+                break;
+        }
     }
+
+    public Resistor resistor;
     
     //TODO: reset
     //Create a public Reset Function to be called by a button
+    public void Reset()
+    {
+        UpdateAllValues(0,0,0,1,0.01f); //Reset all values to default
 
+        for (int i = 0; i < resistor.images.Length; i++)
+        {
+            if(i != resistor.images.Length - 1)
+            {
+                resistor.images[i].color = Color.black; //Reset all colors to default
+            } else
+            {
+                float newR = 164f/255f;
+                float newG = 109f/255f;
+                float newB = 19f/255f;
+
+                Debug.Log(newR + " " + newG + " " +  newB);
+                // resistor.images[i].color = new Color(164,109,19);
+                resistor.images[i].color = new Color(newR,newG,newB,1);
+            }
+        }
+
+        resistorState = ResistorState.Four; //Reset state to default
+
+        dropdown.value = 0; //reset dropdown display to default
+
+
+    }
 
 
 }
