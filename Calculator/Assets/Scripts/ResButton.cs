@@ -81,9 +81,9 @@ public class ResButton : MonoBehaviour
         {
             case ButtonType.bandOne:
 
-                calculator.lastTouched = Calculator.ValueTypes.first;
+                //calculator.lastTouched = Calculator.ValueTypes.first;
+                //calculator.firstValTemp = calculator.firstVal;
 
-                calculator.firstValTemp = calculator.firstVal;
                 calculator.firstVal = childId;
 
                 Debug.Log("changed first value to " + childId);
@@ -91,9 +91,9 @@ public class ResButton : MonoBehaviour
                 
             case ButtonType.bandTwo:
                 
-                calculator.lastTouched = Calculator.ValueTypes.second;
+               //calculator.lastTouched = Calculator.ValueTypes.second;
+               // calculator.secValTemp = calculator.secVal;
 
-                calculator.secValTemp = calculator.secVal;
                 calculator.secVal = childId;
                 Debug.Log("changed second value to " + childId);
                 break;
@@ -101,8 +101,8 @@ public class ResButton : MonoBehaviour
             case ButtonType.bandThree:
 
                 
-                calculator.lastTouched = Calculator.ValueTypes.third;
-                calculator.thirdValTemp = calculator.thirdVal;
+               // calculator.lastTouched = Calculator.ValueTypes.third;
+                //calculator.thirdValTemp = calculator.thirdVal;
 
 
                 calculator.thirdVal = childId;
@@ -114,8 +114,8 @@ public class ResButton : MonoBehaviour
                  // childId is used to get the respective color component in each band. 
                 // create all multiplier values
 
-                calculator.lastTouched = Calculator.ValueTypes.multiplier;
-                calculator.multTemp = calculator.mult;
+                //calculator.lastTouched = Calculator.ValueTypes.multiplier;
+                //calculator.multTemp = calculator.mult;
                 //tempValue of mult
 
                 switch (childId) 
@@ -165,8 +165,8 @@ public class ResButton : MonoBehaviour
             case ButtonType.tolerance:
 
                 
-                calculator.lastTouched = Calculator.ValueTypes.tolerance;
-                calculator.tolTemp = calculator.tol;
+                //calculator.lastTouched = Calculator.ValueTypes.tolerance;
+                //calculator.tolTemp = calculator.tol;
                 // tolerance temp value
 
                 // put respective values to match the tolerance
