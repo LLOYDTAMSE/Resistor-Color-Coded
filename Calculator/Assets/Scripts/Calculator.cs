@@ -205,33 +205,33 @@ public class Calculator : MonoBehaviour
         UpdateResistance();
     }
 
-    //TODO: undo
+      
     //Create a public undo button using temporary values as parameters for UpdateAllValues
-    public void Undo()
-    {
-        switch (lastTouched)
-        {
-            case ValueTypes.first:
-                UpdateAllValues( firstValTemp, secVal, thirdVal, mult, tol );
-                break;
-            case ValueTypes.second:
-                UpdateAllValues( firstVal, secValTemp, thirdVal, mult, tol );
-                break;
-            case ValueTypes.third:
-                UpdateAllValues( firstVal, secVal, thirdValTemp, mult, tol );
-                break;
-            case ValueTypes.multiplier:
-                UpdateAllValues( firstVal, secVal, thirdVal, multTemp, tol );
-                break;
-            case ValueTypes.tolerance:
-                UpdateAllValues( firstVal, secVal, thirdVal, mult, tolTemp );
-                break;
-        }
-    }
+   // public void Undo()
+   // {
+        //switch (lastTouched)
+       // {
+          //  case ValueTypes.first:
+              //  UpdateAllValues( firstValTemp, secVal, thirdVal, mult, tol );
+               // break;
+           // case ValueTypes.second:
+              //  UpdateAllValues( firstVal, secValTemp, thirdVal, mult, tol );
+               // break;
+            //case ValueTypes.third:
+                //UpdateAllValues( firstVal, secVal, thirdValTemp, mult, tol );
+               // break;
+           // case ValueTypes.multiplier:
+//                UpdateAllValues( firstVal, secVal, thirdVal, multTemp, tol );
+       //         break;
+           // case ValueTypes.tolerance:
+          //      UpdateAllValues( firstVal, secVal, thirdVal, mult, tolTemp );
+           //     break;
+       // }
+   // }
 
     public Resistor resistor;
     
-    //TODO: reset
+    
     //Create a public Reset Function to be called by a button
     public void Reset()
     {
@@ -245,7 +245,7 @@ public class Calculator : MonoBehaviour
             } else
             {
                 float newR = 164f/255f;
-                float newG = 109f/255f;
+                float newG = 109f/255f; // Code to represent color brown in resistor image as it reset 
                 float newB = 19f/255f;
 
                 Debug.Log(newR + " " + newG + " " +  newB);
@@ -254,10 +254,21 @@ public class Calculator : MonoBehaviour
             }
         }
 
-        resistorState = ResistorState.Four; //Reset state to default
+       if( dropdown.value == 0)
+          {
+              resistorState = ResistorState.Four; //Reset state to default
+              dropdown.value = 0; //reset dropdown display to default
 
-        dropdown.value = 0; //reset dropdown display to default
+          } else
+        if(dropdown.value == 1)
+        {
+            resistorState = ResistorState.Five;
+            dropdown.value = 1; //reset dropdown display to default
+        }
 
+        
+
+        
 
     }
 
