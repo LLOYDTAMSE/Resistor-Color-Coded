@@ -137,18 +137,24 @@ public class Calculator : MonoBehaviour
         
         //Displaying the resistance text
 
-        Debug.Log(tol);
-
-        if( (floatResistance > 0 && floatResistance < 1) || (floatResistance > 999)   ) // configure the code to used the mertric prefixes
+        if( (floatResistance > 0f && floatResistance < 1f) || (floatResistance > 999f)   ) // configure the code to used the mertric prefixes
         {
             resistanceText.text = ToSI(floatResistance) + " Ω ±" + (tol * 100).ToString() + "%";
-            minResText.text = ToSI(minResistance) + " Ω";
             maxResText.text = ToSI(maxResistance) + " Ω";
-        } else
+        }
+        else
         {
             resistanceText.text = floatResistance.ToString() + " Ω ±" + (tol * 100).ToString() + "%";
-            minResText.text = minResistance.ToString() + " Ω";
             maxResText.text = maxResistance.ToString() + " Ω";
+        }
+
+        if( (minResistance > 0f && minResistance < 1f) || (minResistance > 999f)   ) // configure the code to used the mertric prefixes
+        {
+            minResText.text = ToSI(minResistance) + " Ω";
+        }
+        else
+        {
+            minResText.text = minResistance.ToString() + " Ω";
         }
 
 
@@ -169,28 +175,28 @@ public class Calculator : MonoBehaviour
     public string ToSI(float d)
     {
 
-        char[] incPrefixes = new[] { 'k', 'M', 'G', 'T', 'P', 'E', 'Z', 'Y' };
-        char[] decPrefixes = new[] { 'm', '\u03bc', 'n', 'p', 'f', 'a', 'z', 'y' };
+            char[] incPrefixes = new[] { 'k', 'M', 'G', 'T', 'P', 'E', 'Z', 'Y' };
+            char[] decPrefixes = new[] { 'm', '\u03bc', 'n', 'p', 'f', 'a', 'z', 'y' };
 
-        int degree = (int)Mathf.Floor(Mathf.Log10(Mathf.Abs(d)) / 3);
-        float scaled = d * Mathf.Pow(1000, -degree);
+            int degree = (int)Mathf.Floor(Mathf.Log10(Mathf.Abs(d)) / 3);
+            float scaled = d * Mathf.Pow(1000, -degree);
 
-        char? prefix = null;
+            char? prefix = null;
 
 
-        switch (Mathf.Sign(degree))
-        {
-            case 1: 
-                prefix = incPrefixes[degree - 1];
-                break;
-            case -1:
-                Debug.Log(degree);
-                prefix = decPrefixes[-degree - 1];
-                break;
-        }
+            switch (Mathf.Sign(degree))
+            {
+                case 1: 
+                    prefix = incPrefixes[degree - 1];
+                    break;
+                case -1:
+                    Debug.Log(degree);
+                    prefix = decPrefixes[-degree - 1];
+                    break;
+            }
 
-        Debug.Log(scaled.ToString() + prefix);
-        return scaled.ToString() + prefix;
+            Debug.Log(scaled.ToString() + prefix);
+            return scaled.ToString() + prefix;
         
     }
 
@@ -254,13 +260,13 @@ public class Calculator : MonoBehaviour
             }
         }
 
-       if( dropdown.value == 0)
+       if(resistorState == ResistorState.Four)
           {
               resistorState = ResistorState.Four; //Reset state to default
               dropdown.value = 0; //reset dropdown display to default
 
           } else
-        if(dropdown.value == 1)
+        if(resistorState == ResistorState.Five)
         {
             resistorState = ResistorState.Five;
             dropdown.value = 1; //reset dropdown display to default
